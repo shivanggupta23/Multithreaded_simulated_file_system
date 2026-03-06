@@ -14,3 +14,9 @@ A simulated file system in C using POSIX threads, mutex locks, and condition var
 ```bash
 gcc filesystem.c -o filesystem -lpthread
 ./filesystem
+
+****OUTPUT****
+✔ File created: test.txt
+🔒 Lock acquired on file: test.txt
+📖 Read from test.txt: hello world
+🔓 Lock released on file: test.txt
